@@ -1,7 +1,7 @@
 class Zoo:
     def get_ticket_price(self, age):
         if age < 0:
-            return "err"
+            return "invalid"
         elif 0 <= age <= 12:
             return 50
         elif 13 <= age <= 20:
